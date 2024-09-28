@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.seyuan111.googlenative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e36925bf-f423-4eb3-b5cd-3158f1d4cd28"
+      }
+    },
+    "scheme": "PracticeGoogleApp"
   }
 }
