@@ -10,6 +10,7 @@ const Home = ({ route }) => {
       <Text style={styles.title}>Welcome!</Text>
       <Text style={styles.subtitle}>
         Signed in as: {userInfo.name ? userInfo.name : 'Guest'}
+        I am the {userInfo.name}
       </Text>
     </View>
   );
